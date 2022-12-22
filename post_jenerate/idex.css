@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.img{
+    width: 90px;
+    height: 80px;
+    background-color: rgb(121, 186, 103);
+    position: relative;
+    margin-left: 20px;
+    position: relative;
+    top:90px;
+}
+#post{
+    /* z-index: 2px; */
+    width: 50%;
+    margin-bottom: 30px;
+}
+.kontni{
+    margin-left: 130px;
+}
+#post h1{
+    color: #054207;
+    position: relative;
+    
+}
+pre{
+    margin: 0;
+}
+pre{
+    position:fixed;
+    margin-top:100px;
+    /* -webkit-border-radius: 10px; */
+    background-color: #205122;
+    /* -moz-border-radius: 10px; */
+    border-radius: 10px;
+    /* -moz-box-shadow: 0 0 20px #555;  */
+    /* -webkit-box-shadow: 0 0 20px #555;  */
+    /* box-shadow: 0 0 20px #555;  */
+    width:400px;
+     height: 450px; /*650px */
+    z-index: -8;
+    margin-left: 850px;
+    overflow-y: scroll;
+    
+}
+.date{
+    color: rgb(23, 59, 45);
+}
+.jsonCode{
+    font-size: smaller;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: inline-end;
+    /* bottom:1000px; */
+    /* left: 240px; */
+    background-color: #4CAF50; 
+} 
+/* Header and footer*/
+.nav-bar{
+    background-color: rgb(121, 186, 103);
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    margin-bottom: 150px;
+    z-index: 100;
+    padding-bottom: 25px;
+    
+}
+
+.a{
+    text-decoration: none;
+}
+
+.nav-bar li{
+    /* display: inline-block; */
+    float: inline-end;
+    margin-right: 50px;
+    
+}
+
+.brand{
+    position: relative;
+    top:10px;
+    left: 35px;
+    color: #054207;
+}
+
+.ul{
+    position: relative;
+    bottom: 10px;
+    right: 200px;
+}
+
+.foot{
+    /* position: relative; */
+    position: fixed;
+    bottom: 0;
+    /* top: 450px; */
+    padding-top: 35px;
+    /* height: 40%; */
+    background-color: rgb(118, 115, 111);
+    width: 100%;
+    margin-top: 500px;
+    /* margin-bottom: 300px; */
+    padding-top: 17px;
+    
+}
+
+.selection{
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+}
+
+.btn{
+    margin-right: 100px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 10px;
+    left: 260px;
+}
+
+#reset{
+    float:inline-end;
+
+
+}
+#post{
+    height: auto;
+    padding-bottom: 3px;
+}
+

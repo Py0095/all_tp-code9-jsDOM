@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fomile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+        
+
+<!-- <form id="step-1" name="Form" onsubmit="return validateForm()" > -->
+<form id="step-1" name="Form" >
+    <h2>Enskripsyon</h2>
+    <div class="box">
+        <label>Firstr Name</label>
+        <input type="text" name="fname" id="name">
+        <div class="error" id="fnameErr"></div>
+    </div>
+
+    <div class="box">
+        <label>Last Name</label>
+        <input type="text" name="lname" id="lname">
+        <div class="error" id="lnameErr"></div>
+    </div>
+
+    <div class="box">
+        <label>Email Address</label>
+        <input type="text" name="email" id="email">
+        <div class="error" id="emailErr"></div>
+    </div>
+    <div class="box">
+        <label>Phone Number</label>
+        <input type="text" name="mobile" maxlength="8" id="mobile">
+        <div class="error" id="mobileErr"></div>
+    </div>
+    <div class="box">
+        <label>Password</label>
+        <input type="password" name="password" id="password">
+        <div class="error" id="passwordErr"></div>
+    </div>
+    <div class="box">
+        <label>Password Check</label>
+        <input type="password" name="password2" id="password2">
+        <div class="error" id="passwordErr2"></div>
+    </div>
+    <!-- <div class="box">
+        <label>Country</label>
+        <select name="country" id="country">
+            <option>Select</option>
+            <option>London</option>
+            <option>India</option>
+            <option>America</option>
+        </select> 
+        <div class="error" id="countryErr"></div>
+    </div>
+    <div class="box">
+        <label>Gender</label>
+        <div class="form-inline" id="gender">
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label> 
+        </div>
+        <div class="error" id="genderErr"></div>
+    </div> -->
+          
+    <div class="box">
+        <input type="submit" value="Next" id="next">
+    </div>
+</form>
+
+<!-- <form id="step-2" onsubmit="return validateForm()" > -->
+<form id="step-2" name="Form2">
+    <h2>Enfomasyon anplis</h2>
+    
+     <div class="box">
+        <label><strong>ID-Type:</strong></label>
+        <select name="idType" id="idType">
+            <option value=" " selected> </option>
+            <option value="NIF">NIF</option>
+            <option value="NIN">NIN</option>
+        </select> 
+        <div class="error" id="idTypeErr"></div>
+    </div>
+    <div class="box">
+        <label><strong id1="v">NiF/NIN:</strong></label>
+        <input type="text" name="id1" id="id1" maxlength="12">
+        <div class="error" id="idErr"></div>
+    </div> 
+    <div class="box">
+        <label><strong>Gender:</strong></label>
+        <div class="form-inline" id="gender">
+            <label><input  type="radio" name="gender" value="male"> Male</label>
+            <label><input  type="radio" name="gender" value="female"> Female</label> 
+            <div class="error" id="genderErr"></div>
+        </div>
+        
+    </div>
+
+   
+    <div class="checkbox">
+        <br><legend><strong>Interest:</strong></legend><br>
+         <div class="technology">
+            <label for="technology">Technology</label>
+            <input class="input-checkbox" type="checkbox" id="technology" value="technology" name="choice">
+          </div>
+
+          <div class="culturel">
+            <label for="culturel">Culturel</label>
+            <input class="input-checkbox" type="checkbox" id="culturel" name="culturel" name="choice" value="culturel">
+          </div>
+
+          <div class="science">
+            <label for="science">Science</label>
+            <input class="input-checkbox" type="checkbox" id="science" name="choice" value="science">
+          </div>
+
+          <div class="sport">
+            <label for="sport">Sport</label>
+            <input class="input-checkbox" type="checkbox" id="sport" name="choice" value="sport">
+          </div>
+
+          <div class="music">
+            <label for="music">Music</label>
+            <input class="input-checkbox" type="checkbox" id="music" name="choice" value="music">
+          </div>
+
+          <div class="error" id="checkboxErr"></div>
+    </div>
+          
+    <div class="box">
+        <input type="submit" value="Submit" id="subbmint">
+    </div>
+</form>
+
+<form id="step-3" name="Form3">
+    <h2>Info Enregistrer</h2>
+    <div id="infos">
+
+    </div>
+</form>
+
+
+<script src="js/form.js"></script>
+</body>
+</html>
+
+
